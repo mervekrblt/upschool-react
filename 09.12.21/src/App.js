@@ -11,13 +11,11 @@ function App()
     { id: 3, name: "Olcay" },
     { id: 4, name: "Bektaş" }
   ]
-  const [word, setWord] = useState({
-    title: ""
-  })
+  const [word, setWord] = useState("")
 
   function inputHandler(e) {
     console.log(e.target.value)
-    setWord({...word, title: e.target.value})
+    setWord(e.target.value)
   }
   return (
     <div className="App">
@@ -25,7 +23,7 @@ function App()
 
       <input onChange={inputHandler} type="text" className="form-control w-50 mx-auto my-5" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
 
-      {userData.filter(user => user.name.includes(word.title)).map(user =>
+      {userData.filter(user => user.name.toLowerCase().includes(word)).map(user =>
       {
         return (
           <div key={user.id} className="col">
