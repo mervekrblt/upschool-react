@@ -16,13 +16,13 @@
 
 ## useState without `import {useState} from 'react`
 
-```
+```jsx
 React.useState()
 ```
 
 ## Disable button when count equals to 0
 
-```
+```jsx
 disabled={count <= 0 ? true : false}
 ```
 

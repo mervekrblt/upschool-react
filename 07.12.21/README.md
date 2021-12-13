@@ -9,13 +9,13 @@
 
 ## Bootstrap with react
 
-```
+```bash
 npm i bootstrap
 ```
 
 Add this code to work with bootstrap into index.js
 
-```
+```js
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap/dist/js/bootstrap.bundle";
 ```

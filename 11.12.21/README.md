@@ -14,7 +14,7 @@
 
 - First way
 
-```
+```jsx
 // App.js
 
 <Card item={item} anotherData={anotherData} />
@@ -29,7 +29,7 @@ function Card(props) {
 
 - Second way
 
-```
+```jsx
 // App.js
 
 <Card item={item} anotherData={anotherData} />
@@ -47,7 +47,7 @@ function Card(props) {
 
 - Third way
 
-```
+```jsx
 // App.js
 
 <Card item={item} anotherData={anotherData} />
@@ -61,7 +61,7 @@ function Card({item, ...props}) {
 
 ## How to send data child to parent
 
-```
+```jsx
 //todoItem.js - child component
 
 const { item, changeColor } = props

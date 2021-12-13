@@ -6,7 +6,7 @@ After each lesson, I tried what we did/learn in the lesson. In the future, I can
 
 | Date      | Subject | Folder |
 | ----------- | ----------- | ---------|
-| 04-12-21      | ??       | [Go To 04.12.21](04.12.21) |
-| 07-12-21   | Add card component with add button  | [Go To 07.12.21](07.12.21) |
-| 09-12-21   | Search example with onChange | [Go To 09.12.21](09.12.21) |
-| 11-12-21   | To Do example (icludes homework)        | [Go To 11.12.21](11.12.21) |
+| 04-12-21      | ??       | [Lesson 1](04.12.21) |
+| 07-12-21   | Add card component with add button  | [Lesson 2](07.12.21) |
+| 09-12-21   | Search example with onChange | [Lesson 3](09.12.21) |
+| 11-12-21   | To Do example (icludes homework)        | [Lesson 4](11.12.21) |
