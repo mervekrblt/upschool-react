@@ -1,8 +1,8 @@
 //import { useState } from "react"
 
 function TodoItem (props) {
-  const { item } = props
-  const { changeColor } = props
+  const { item, changeColor } = props
+  //const { changeColor } = props
 
   //const [data, setData] = useState(item.isDone)
   //console.log(props, item)

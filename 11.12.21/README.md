@@ -1,6 +1,8 @@
 
 # Lesson 4 - 11.12.2021
 
+[DEMO	:rocket:](https://11-12-21.vercel.app/)
+
 ## Contents
 - How to send props?
 - Create a form with bootstrap and react
@@ -55,6 +57,35 @@ function Card(props) {
 function Card({item, ...props}) {
   console.log(item, props.anotherData)
 }
+```
+
+## How to send data child to parent
+
+```
+//todoItem.js - child component
+
+const { item, changeColor } = props
+<p onClick={
+  () => changeColor(!item.isDone, item.id)} 
+  className={`border w-50 ${item.isDone && "bg-success"}`} 
+  >{item.title}
+  </p>
+
+//App.js - parent component
+
+  const changeColor = (data, i) =>{
+    setTodos(todos.map(todo => todo.id === i ? { ...todo, isDone: data } : todo))
+  }
+
+  {todos.map(item =>
+      {
+        return (
+          <div key={item.id} className="text-center">
+            <TodoItem item={item} changeColor={changeColor} />
+          </div>
+        )
+  })}
+
 ```
 
 ### Notes
