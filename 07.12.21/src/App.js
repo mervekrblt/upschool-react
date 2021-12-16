@@ -1,4 +1,4 @@
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import './App.css'
 import Card from './components/Card';
 import Footer from './components/Footer';
@@ -6,12 +6,11 @@ import Navbar from './components/Navbar';
 
 function App()
 {
-  const [card, setCard] = useState(1)
   function addCard()
   {
     setCard(card + 1)
   }
-
+  const [card, setCard] = useState(1)
 
   return (
     <div className="App">
