@@ -1,0 +1,6 @@
+body {
+  background-image: url("../public/img/bckgrnd.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}

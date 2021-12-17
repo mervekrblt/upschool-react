@@ -1,0 +1,9 @@
+.custom-card {
+  border-radius: 20px;
+}
+
+.form-card {
+  -webkit-box-shadow: 8px 10px 32px -6.5px #dbd657;
+  -moz-box-shadow: 8px 10px 32px -6.5px #dbd657;
+  box-shadow: 8px 10px 32px -6.5px #dbd657;
+}
