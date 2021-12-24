@@ -1,11 +1,12 @@
 import products from '../products'
+import {Link} from 'react-router-dom'
 import { useLocation } from "react-router-dom"
 
 const Product = (props) =>
 {
   const { urlParams } = props
   const url = useLocation()
-  console.log(url.pathname)
+  //console.log(url.pathname)
 
   let allProducts;
 
@@ -18,6 +19,7 @@ const Product = (props) =>
   }
 
   return <>
+    {allProducts.length === 0 && <Link to="/search" className='btn btn-warning'>Try Again</Link>}
     <div className="container">
       <div className="row">
         {

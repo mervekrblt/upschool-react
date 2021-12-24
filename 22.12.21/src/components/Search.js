@@ -21,6 +21,7 @@ return <>
     id = "search"
     defaultValue={q}
     />
+    <button className="btn btn-danger my-5 mx-2" type="reset">Reset</button>
     <button className="btn btn-primary my-5" type="submit">Search</button>
   </form>
 </>
