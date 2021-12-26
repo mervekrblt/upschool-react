@@ -10,3 +10,6 @@ After each lesson, I tried what we did/learn in the lesson. In the future, I can
 | 07-12-21   | Add card component with add button  | [Lesson 2](07.12.21) |
 | 09-12-21   | Search example with onChange | [Lesson 3](09.12.21) |
 | 11-12-21   | To Do example (icludes homework)        | [Lesson 4](11.12.21) |
+| 14-12-21   | Grocery List (homework)       | [Lesson 5](14.12.21) |
+| 21-12-21 - 22.12.21   | React Router Dom        | [Lesson 6 & 7](22.12.21) |
+| 23-12-21      | useEffect Hook & use api to get data from backend, then display       | [Lesson 8](23.12.21) |
