@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import theme from '../theme'
 
-const Navbar = () => {
+const Navbar = ({isDark}) => {
+  const currentTheme = isDark ? theme.isDark : theme.isLight
+  console.log(currentTheme)
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className={`navbar navbar-expand-lg  ${currentTheme.nav}`}>
         <div className="container-fluid">
           <Link className="nav-link active" aria-current="page" to={"/"}>
             Home

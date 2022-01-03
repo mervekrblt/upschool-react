@@ -3,7 +3,9 @@ const About = () => {
     <>
       About
       <section>
-        <p>This p element effected by theme change</p>
+        <p className={"text-success"}>
+          This p element effected by theme change
+        </p>
       </section>
     </>
   );
