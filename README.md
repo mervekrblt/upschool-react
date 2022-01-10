@@ -14,3 +14,4 @@ After each lesson, I tried what we did/learn in the lesson. In the future, I can
 | 21-12-21 - 22.12.21   | React Router Dom        | [Lesson 6 & 7](22.12.21) |
 | 23-12-21      | useEffect Hook & use api to get data from backend, then display       | [Lesson 8](23.12.21) |
 | 25-12-21 - 30-12-21 - 02-01-22| Why do we need **Context Api**? (create dark/light theme)|[Lesson 9-10-11](02.01.22)|
+| 04-01-22      | Dark/light theme with **Context API**       | [Lesson 12](04.01.22) |
