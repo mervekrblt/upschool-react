@@ -1,0 +1,11 @@
+{
+  "name": "11.01.22",
+  "version": "1.0.0",
+  "description": "11.01.22 lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Merve Karabulut",
+  "license": "MIT"
+}
