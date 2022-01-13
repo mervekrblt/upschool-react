@@ -1,0 +1,17 @@
+{
+  "name": "11.01.22",
+  "version": "1.0.0",
+  "description": "11.01.22 lesson",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Merve Karabulut",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.15",
+    "redux": "^4.1.2"
+  }
+}
