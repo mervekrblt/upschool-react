@@ -19,9 +19,9 @@ export const decrement = (value = 1) => {
 export const counterReducer = (count = 0, action) => {
   switch (action.type) {
     case INCREMENT:
-      return count + action.value;
+      return count + action.payload;
     case DECREMENT:
-      return count - action.value;
+      return count - action.payload;
     default:
       return count;
   }
