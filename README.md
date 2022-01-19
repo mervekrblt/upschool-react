@@ -14,6 +14,8 @@ After each lesson, I tried what we did/learn in the lesson. In the future, I can
 | 21-12-21 - 22.12.21   | React Router Dom        | [Lesson 6 & 7](22.12.21) |
 | 23-12-21      | useEffect Hook & use api to get data from backend, then display       | [Lesson 8](23.12.21) |
 | 25-12-21 - 30-12-21 - 02-01-22| Why do we need **Context Api**? (create dark/light theme)|[Lesson 9-10-11](02.01.22)|
-| 04-01-22      | Dark/light theme with **Context API** **uncomplete**       | [Lesson 12](04.01.22) |
-| 08-01-22      | Styling Components **uncomplete**      | [Lesson 13]() |
+| 04-01-22      | Dark/light theme with **Context API** **UNCOMPLETED**       | [Lesson 12](04.01.22) |
+| 08-01-22      | Styling Components **UNCOMPLETED**      | [Lesson 13]() |
 | 11-01-22      | What is Redux?      | [Lesson 14](11.01.22) |
+| 15-01-22      | What is Redux-persist?      | [Lesson 15](15.01.22) |
+| 18-01-22      | ?**UNCOMPLETED**      | [Lesson 16](18.01.22) |
